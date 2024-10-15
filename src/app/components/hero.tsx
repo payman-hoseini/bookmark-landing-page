@@ -6,8 +6,8 @@ export default function Hero(){
             <p className="text-Grayish-Blue my-8 w-[80%] text-lg">A clean and simple interface to organize your favourite websites. Open a new 
             browser tab and see your sites load instantly. Try it for free.</p>
             <div>
-              <button className="bg-Soft-Blue text-white font-medium px-4 py-3 rounded text-sm shadow-md">Get it on Chrome</button>
-              <button className="ml-5 bg-gray-100 text-Very-Dark-Blue font-medium px-4 py-3 rounded text-sm shadow-md">Get it on Firefox</button>
+              <button className="bg-Soft-Blue text-white font-medium px-4 py-3 rounded text-sm shadow-md hover:text-Soft-Blue hover:bg-white hover:ring-2 hover:ring-Soft-Blue hover:duration-300">Get it on Chrome</button>
+              <button className="ml-5 bg-gray-100 text-Very-Dark-Blue font-medium px-4 py-3 rounded text-sm shadow-md hover:text-Very-Dark-Blue hover:bg-white hover:ring-2 hover:ring-Very-Dark-Blue hover:duration-300">Get it on Firefox</button>
             </div>
           </div>
           <div className="relative">
