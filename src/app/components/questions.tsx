@@ -1,4 +1,12 @@
+'use client'
+
+import { useState } from "react"
+
 export default function Questions(){
+    const [one, setOne] = useState(false)
+    const [two, setTwo] = useState(false)
+    const [three, setThree] = useState(false)
+    const [four, setFour] = useState(false)
     return (
         <div className="mt-[550px]">
           <div className="text-center font-Rubik">
@@ -8,63 +16,79 @@ export default function Questions(){
           </div>
           <div className="mt-8 mx-[500px] font-Rubik border-t-2 border-t-gray-200">
               <ul>
-                <li>
+                <li className="group hover:cursor-pointer" onClick={() => {one ? setOne(false) : setOne(true) ; setTwo(false); setThree(false); setFour(false)}}>
                   <div>
                     <div className="flex justify-between items-center py-4 pr-4">
-                      <button className="text-Very-Dark-Blue">What is Bookmark?</button>
+                      <button className="text-Very-Dark-Blue group-hover:text-Soft-Red">What is Bookmark?</button>
                       <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                        {
+                            one ? 
+                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                        }
                       </div>
                     </div>
-                    <div>
-                      <p className="text-Grayish-Blue mt-2 leading-6 hidden">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
+                    {one && <div className="mb-4">
+                      <p className="text-Grayish-Blue mt-2 leading-6 ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce tincidunt 
                       justo eget ultricies fringilla. Phasellus blandit ipsum quis quam ornare mattis.</p>
-                    </div>
+                    </div>}
                   </div>
                 </li>
-                <li>  
+                <li className="group hover:cursor-pointer" onClick={() => {setOne(false); two ? setTwo(false) : setTwo(true); setThree(false); setFour(false)}}>  
                   <div className="border-t-2 border-t-gray-200">
                     <div className="flex justify-between items-center py-4 pr-4">
-                      <button className="text-Very-Dark-Blue">How can I request a new browser?</button>
+                      <button className="text-Very-Dark-Blue group-hover:text-Soft-Red">How can I request a new browser?</button>
                       <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                        {
+                            two ? 
+                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                        }
                       </div>
                     </div>
-                    <div>
-                      <p className="text-Grayish-Blue mt-2 leading-6 hidden">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
+                    {two && <div className="mb-4">
+                      <p className="text-Grayish-Blue mt-2 leading-6">Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, ultricies non ligula. 
                         Suspendisse imperdiet. Vivamus luctus eros aliquet convallis ultricies. Mauris augue massa, 
                         ultricies non ligula. Suspendisse imperdie tVivamus luctus eros aliquet convallis ultricies. 
                         Mauris augue massa, ultricies non ligula. Suspendisse imperdiet.</p>
-                    </div>
+                    </div>}
                   </div>
                 </li>
-                <li>
+                <li className="group hover:cursor-pointer" onClick={() => {setOne(false); setTwo(false); three ? setThree(false) : setThree(true); setFour(false)}}>
                   <div className="border-t-2 border-t-gray-200">
                     <div className="flex justify-between items-center py-4 pr-4">
-                      <button className="text-Very-Dark-Blue">Is there a mobile app?</button>
+                      <button className="text-Very-Dark-Blue group-hover:text-Soft-Red">Is there a mobile app?</button>
                       <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                        {
+                            three ? 
+                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                        }
                       </div>
                     </div>
-                    <div>
-                      <p className="text-Grayish-Blue mt-2 leading-6 hidden">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
+                    {three && <div className="mb-4">
+                        <p className="text-Grayish-Blue mt-2 leading-6">Sed consectetur quam id neque fermentum accumsan. Praesent luctus vestibulum dolor, ut condimentum 
                         urna vulputate eget. Cras in ligula quis est pharetra mattis sit amet pharetra purus. Sed 
                         sollicitudin ex et ultricies bibendum.</p>
-                    </div>
+                    </div>}
                   </div>
                 </li>
-                <li>
+                <li className="group hover:cursor-pointer" onClick={() => {setOne(false); setTwo(false); setThree(false);four ? setFour(false) : setFour(true)}}>
                   <div className="border-y-2 border-y-gray-200">
                     <div className="flex justify-between items-center py-4 pr-4">
-                      <button className="text-Very-Dark-Blue">What about other Chromium browsers?</button>
+                      <button className="text-Very-Dark-Blue group-hover:text-Soft-Red">What about other Chromium browsers?</button>
                       <div>
-                        <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                        {
+                            four ? 
+                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                        }
                       </div>
                     </div>
-                    <div>
-                      <p className="text-Grayish-Blue mt-2 leading-6 hidden">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
+                   {four && <div className="mb-4">
+                      <p className="text-Grayish-Blue mt-2 leading-6">Integer condimentum ipsum id imperdiet finibus. Vivamus in placerat mi, at euismod dui. Aliquam 
                       vitae neque eget nisl gravida pellentesque non ut velit.</p>
-                    </div>
+                    </div>}
                   </div>
                 </li>
               </ul>

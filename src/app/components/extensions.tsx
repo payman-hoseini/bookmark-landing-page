@@ -16,7 +16,7 @@ export default function Extensions(){
                 <div className="mt-6">
                   <svg xmlns="http://www.w3.org/2000/svg" width="280" height="4"><path fill="#495DCF" fill-opacity=".2" fill-rule="evenodd" d="M0 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm280 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-18 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm122 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-70 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM88 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM70 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM53 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM35 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM18 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
                 </div>
-                <button className="mt-5 bg-Soft-Blue text-sm text-white w-[90%] py-2 rounded shadow-md">Add & Install Extension</button>
+                <button className="mt-5 bg-Soft-Blue text-sm text-white w-[90%] py-3 rounded shadow-md font-medium hover:bg-white hover:text-Soft-Blue hover:ring-2 hover:ring-Soft-Blue hover:duration-300">Add & Install Extension</button>
               </div>
               <div className="grid place-items-center shadow-lg rounded absolute left-[41%] top-10 pt-10 pb-5 font-Rubik">
                 <div>
@@ -27,7 +27,7 @@ export default function Extensions(){
                 <div className="mt-6">
                   <svg xmlns="http://www.w3.org/2000/svg" width="280" height="4"><path fill="#495DCF" fill-opacity=".2" fill-rule="evenodd" d="M0 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm280 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-18 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm122 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-70 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM88 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM70 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM53 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM35 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM18 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
                 </div>
-                <button className="mt-5 bg-Soft-Blue text-sm text-white w-[90%] py-2 rounded shadow-md">Add & Install Extension</button>
+                <button className="mt-5 bg-Soft-Blue text-sm text-white w-[90%] py-3 rounded shadow-md font-medium hover:bg-white hover:text-Soft-Blue hover:ring-2 hover:ring-Soft-Blue hover:duration-300">Add & Install Extension</button>
               </div>
               <div className="grid place-items-center shadow-lg rounded absolute left-[62%] top-20 pt-10 pb-5 font-Rubik">
                 <div>
@@ -38,7 +38,7 @@ export default function Extensions(){
                 <div className="mt-6">
                   <svg xmlns="http://www.w3.org/2000/svg" width="280" height="4"><path fill="#495DCF" fill-opacity=".2" fill-rule="evenodd" d="M0 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm280 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-18 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-17 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm122 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-35 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm-70 0a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM88 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM70 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM53 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM35 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4zM18 4a2 2 0 1 1 0-4 2 2 0 0 1 0 4z"/></svg>
                 </div>
-                <button className="mt-5 bg-Soft-Blue text-sm text-white w-[90%] py-2 rounded shadow-md">Add & Install Extension</button>
+                <button className="mt-5 bg-Soft-Blue text-sm text-white w-[90%] py-3 rounded shadow-md font-medium hover:bg-white hover:text-Soft-Blue hover:ring-2 hover:ring-Soft-Blue hover:duration-300">Add & Install Extension</button>
               </div>
           </div>
         </div>
