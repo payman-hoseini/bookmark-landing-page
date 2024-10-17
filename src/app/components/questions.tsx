@@ -14,7 +14,7 @@ export default function Questions(){
               <p className="mt-4 text-Grayish-Blue w-[32%] mx-auto">Here are some of our FAQs. If you have any other questions you’d like 
               answered please feel free to email us.</p>
           </div>
-          <div className="mt-8 mx-[500px] font-Rubik border-t-2 border-t-gray-200">
+          <div className="mt-8 md:mx-[500px] font-Rubik border-t-2 border-t-gray-200">
               <ul>
                 <li className="group hover:cursor-pointer" onClick={() => {one ? setOne(false) : setOne(true) ; setTwo(false); setThree(false); setFour(false)}}>
                   <div>
