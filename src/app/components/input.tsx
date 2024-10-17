@@ -22,7 +22,7 @@ export default function Input(){
                 <input onChange={(e)=>{setInput(e.target.value)}} type="email" placeholder="Enter your email address" className={`${error ? "error ring-2 ring-Soft-Red" : ""} px-4 py-3 rounded w-full outline-none`}/>
                 {error && <p className="text-left py-1 px-2 rounded-b text-white text-xs italic bg-Soft-Red w-full ring-2 ring-Soft-Red">Whoops, make sure its an email</p>}
             </div>
-            <button onClick={checkEmail} className=" mt-5 lg:mt-0 bg-Soft-Red text-white lg:ml-4 py-[14px] font-medium px-5 text-sm rounded hover:bg-white hover:text-Soft-Red hover:ring-2 hover:ring-Soft-Red hover:duration-300">Contact Us</button>
+            <button onClick={checkEmail} className="w-[85%] md:w-max mt-5 lg:mt-0 bg-Soft-Red text-white lg:ml-4 py-[14px] font-medium px-5 text-sm rounded hover:bg-white hover:text-Soft-Red hover:ring-2 hover:ring-Soft-Red hover:duration-300">Contact Us</button>
           </div> 
         </div>
     )
