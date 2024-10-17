@@ -23,8 +23,8 @@ export default function Questions(){
                       <div>
                         {
                             one ? 
-                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
-                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
+                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
                         }
                       </div>
                     </div>
@@ -41,8 +41,8 @@ export default function Questions(){
                       <div>
                         {
                             two ? 
-                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
-                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
+                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
                         }
                       </div>
                     </div>
@@ -61,8 +61,8 @@ export default function Questions(){
                       <div>
                         {
                             three ? 
-                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
-                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
+                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
                         }
                       </div>
                     </div>
@@ -80,8 +80,8 @@ export default function Questions(){
                       <div>
                         {
                             four ? 
-                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
-                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" stroke-width="3" d="M1 1l8 8 8-8"/></svg>
+                            <svg className="rotate-180" xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="red" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
+                            : <svg xmlns="http://www.w3.org/2000/svg" width="18" height="12"><path fill="none" stroke="#5267DF" strokeWidth="3" d="M1 1l8 8 8-8"/></svg>
                         }
                       </div>
                     </div>
