@@ -8,13 +8,13 @@ export default function Questions(){
     const [three, setThree] = useState(false)
     const [four, setFour] = useState(false)
     return (
-        <div className="md:mt-[550px] mt-36">
+        <div className="lg:mt-[550px] mt-36">
           <div className="text-center font-Rubik">
-              <p className="md:text-3xl text-2xl font-medium text-Very-Dark-Blue px-14 md:px-0">Frequently Asked Questions</p>
-              <p className="mt-4 text-Grayish-Blue md:w-[32%] mx-auto px-10 md:px-0">Here are some of our FAQs. If you have any other questions you’d like 
+              <p className="lg:text-3xl text-2xl font-medium text-Very-Dark-Blue px-14 lg:px-0">Frequently Asked Questions</p>
+              <p className="mt-4 text-Grayish-Blue lg:w-[32%] mx-auto px-10 lg:px-0">Here are some of our FAQs. If you have any other questions you’d like 
               answered please feel free to email us.</p>
           </div>
-          <div className="md:mt-8 mt-14 md:mx-[500px] font-Rubik md:border-t-2 md:border-t-gray-200 px-10 md:px-0">
+          <div className="lg:mt-8 mt-14 lg:mx-[500px] font-Rubik lg:border-t-2 lg:border-t-gray-200 px-10 lg:px-0">
               <ul>
                 <li className="group hover:cursor-pointer" onClick={() => {one ? setOne(false) : setOne(true) ; setTwo(false); setThree(false); setFour(false)}}>
                   <div>
