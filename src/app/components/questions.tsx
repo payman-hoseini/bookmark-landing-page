@@ -7,6 +7,50 @@ export default function Questions(){
     const [two, setTwo] = useState(false)
     const [three, setThree] = useState(false)
     const [four, setFour] = useState(false)
+    function One(){
+      if(one){
+        setOne(false)
+      }
+      else{
+        setOne(true)
+      }
+      setTwo(false);
+      setThree(false);
+      setFour(false)
+    }
+    function Two(){
+      if(two){
+        setTwo(false)
+      }
+      else{
+        setTwo(true)
+      }
+      setOne(false);
+      setThree(false);
+      setFour(false)
+    }
+    function Three(){
+      if(three){
+        setThree(false)
+      }
+      else{
+        setThree(true)
+      }
+      setOne(false);
+      setTwo(false);
+      setFour(false)
+    }
+    function Four(){
+      if(four){
+        setFour(false)
+      }
+      else{
+        setFour(true)
+      }
+      setOne(false);
+      setTwo(false);
+      setThree(false)
+    }
     return (
         <div className="lg:mt-[550px] mt-36">
           <div className="text-center font-Rubik">
@@ -16,7 +60,7 @@ export default function Questions(){
           </div>
           <div className="lg:mt-8 mt-14 lg:mx-[500px] font-Rubik lg:border-t-2 lg:border-t-gray-200 px-10 lg:px-0">
               <ul>
-                <li className="group hover:cursor-pointer" onClick={() => {one ? setOne(false) : setOne(true) ; setTwo(false); setThree(false); setFour(false)}}>
+                <li className="group hover:cursor-pointer" onClick={One}>
                   <div>
                     <div className="flex justify-between items-center py-4 pr-4">
                       <button className="text-Very-Dark-Blue group-hover:text-Soft-Red">What is Bookmark?</button>
@@ -34,7 +78,7 @@ export default function Questions(){
                     </div>}
                   </div>
                 </li>
-                <li className="group hover:cursor-pointer" onClick={() => {setOne(false); two ? setTwo(false) : setTwo(true); setThree(false); setFour(false)}}>  
+                <li className="group hover:cursor-pointer" onClick={Two}>  
                   <div className="border-t-2 border-t-gray-200">
                     <div className="flex justify-between items-center py-4 pr-4">
                       <button className="text-Very-Dark-Blue group-hover:text-Soft-Red">How can I request a new browser?</button>
@@ -54,7 +98,7 @@ export default function Questions(){
                     </div>}
                   </div>
                 </li>
-                <li className="group hover:cursor-pointer" onClick={() => {setOne(false); setTwo(false); three ? setThree(false) : setThree(true); setFour(false)}}>
+                <li className="group hover:cursor-pointer" onClick={Three}>
                   <div className="border-t-2 border-t-gray-200">
                     <div className="flex justify-between items-center py-4 pr-4">
                       <button className="text-Very-Dark-Blue group-hover:text-Soft-Red">Is there a mobile app?</button>
@@ -73,7 +117,7 @@ export default function Questions(){
                     </div>}
                   </div>
                 </li>
-                <li className="group hover:cursor-pointer" onClick={() => {setOne(false); setTwo(false); setThree(false);four ? setFour(false) : setFour(true)}}>
+                <li className="group hover:cursor-pointer" onClick={Four}>
                   <div className="border-y-2 border-y-gray-200">
                     <div className="flex justify-between items-center py-4 pr-4">
                       <button className="text-Very-Dark-Blue group-hover:text-Soft-Red">What about other Chromium browsers?</button>
