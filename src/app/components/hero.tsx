@@ -1,9 +1,9 @@
 export default function Hero(){
     return (
         <div className="md:pl-44 flex flex-col-reverse md:flex-row md:mt-14 font-Rubik">
-          <div className="py-20">
-            <p className="text-5xl font-medium text-Very-Dark-Blue">A Simple Bookmark Manager</p>
-            <p className="text-Grayish-Blue my-8 w-[80%] text-lg">A clean and simple interface to organize your favourite websites. Open a new 
+          <div className="md:py-20 pb-20 md:pb-0 text-center md:text-left px-10 md:px-0">
+            <p className="md:text-5xl text-3xl font-medium text-Very-Dark-Blue">A Simple Bookmark Manager</p>
+            <p className="text-Grayish-Blue my-8 md:w-[80%] text-lg">A clean and simple interface to organize your favourite websites. Open a new 
             browser tab and see your sites load instantly. Try it for free.</p>
             <div>
               <button className="bg-Soft-Blue text-white font-medium px-4 py-3 rounded text-sm shadow-md hover:text-Soft-Blue hover:bg-white hover:ring-2 hover:ring-Soft-Blue hover:duration-300">Get it on Chrome</button>
